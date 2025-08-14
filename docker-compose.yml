@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  db:
+    image: postgres:16
+    container_name: my_postgres
+    restart: always
+    ports:
+      - "5333:5432"
+    environment:
+      POSTGRES_DB: mydb        # имя базы
+      POSTGRES_USER: mydb          # имя пользователя
+      POSTGRES_PASSWORD: mydb  # пароль
+    volumes:
+      - ./postgres_data:/var/lib/postgresql/data
