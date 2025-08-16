@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-5xkn%^-agop1v$(-zl0o-regcuyoil(v5kc0@1-fr6h+_0&6j('
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1']
 
@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django_extensions',
     'rest_framework',
     'django_filters',
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [
@@ -86,8 +87,8 @@ DATABASES = {
         'NAME': 'mydb',
         'USER': 'mydb',
         'PASSWORD': 'mydb',
-        'HOST': 'shop-db',
-        'PORT': '5432',
+        'HOST': 'localhost', #'shop-db',
+        'PORT': '5333',    #'5432',
     }
 }
 
