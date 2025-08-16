@@ -4,33 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7d8de3d-130f-47af-a6ea-2be57d9f1dd1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/online_shop.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineshop/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineshop/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineshop/onlineshop/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineshop/onlineshop/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineshop/onlineshop/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineshop/onlineshop/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineshop/onlineshop/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineshop/onlineshopmain/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineshop/onlineshopmain/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineshop/onlineshopmain/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineshop/onlineshopmain/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineshop/onlineshopmain/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineshop/onlineshopmain/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineshop/onlineshopmain/templates/onlineshopmain/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineshop/onlineshopmain/templates/onlineshopmain/categories.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineshop/onlineshopmain/templates/onlineshopmain/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineshop/onlineshopmain/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineshop/onlineshopmain/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineshop/onlineshopmain/views.py" afterDir="false" />
+    <list default="true" id="d7d8de3d-130f-47af-a6ea-2be57d9f1dd1" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/onlineshop/onlineshopmain/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineshop/onlineshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/onlineshop/onlineshop/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineshop/onlineshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/onlineshop/onlineshop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineshop/onlineshopmain/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/onlineshop/onlineshopmain/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineshop/onlineshopmain/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/onlineshop/onlineshopmain/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,14 +20,26 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;haranton&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/haranton/online_shop.git&quot;,
+    &quot;accountId&quot;: &quot;141d7b46-6f15-403e-a3cb-111ce2946cfd&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -69,7 +61,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/anton/PycharmProjects/online_shop/onlineshop/manage.py",
+    "last_opened_file_path": "/home/anton/PycharmProjects/online_shop",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
@@ -113,14 +105,27 @@
       <option name="presentableId" value="Default" />
       <updated>1754811385519</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1755191646794</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1755191646794</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/onlineshop/onlineshop/urls.py</url>
-          <line>26</line>
+          <line>23</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>

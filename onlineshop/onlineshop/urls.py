@@ -19,12 +19,7 @@ from django.urls import path, include
 
 from django.contrib import admin
 
-
-from onlineshopmain.views import index, categories, pageNotFound
-
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('onlineshop/', include('onlineshopmain.urls')),
+    path('api/', include('onlineshopmain.urls')),
 ]
-
-handler404 = pageNotFound

@@ -1,18 +1,19 @@
-from django.http import HttpResponse, HttpResponseNotFound
-from django.shortcuts import render, redirect
-from .models import *
+from unicodedata import category
 
+from .models import Product, Category
+from .serializers import ProductSerializer,CategorySerializer
+from rest_framework import viewsets
 
-# Create your views here.
-def index(request):
-    return render(request, 'onlineshopmain/index.html')
+class CategoryViewSet(viewsets.ModelViewSet):
+    queryset = Category.objects.all()
+    serializer_class = CategorySerializer
 
-def about(request):
-    return render(request, 'onlineshopmain/about.html')
-
-def categories(request):
-    all_categories = Category.objects.all()
-    return render(request, 'onlineshopmain/categories.html', {'categories': all_categories})
-
-def pageNotFound(request, exception):
-    return HttpResponseNotFound('Страница не найдена')
+class ProductViewSet(viewsets.ModelViewSet):
+    queryset = Product.objects.all()
+    serializer_class = ProductSerializer
+    def get_queryset(self):
+        queryset  = super().get_queryset()
+        category_id = self.request.query_params.get('category_id')
+        if category_id:
+            queryset = queryset.filter(category_id=category_id)
+        return queryset
