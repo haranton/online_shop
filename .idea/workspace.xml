@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7d8de3d-130f-47af-a6ea-2be57d9f1dd1" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/onlineshop/onlineshopmain/serializers.py" afterDir="false" />
+    <list default="true" id="d7d8de3d-130f-47af-a6ea-2be57d9f1dd1" name="Changes" comment="добавление hhtp ручек">
+      <change afterPath="$PROJECT_DIR$/onlineshop/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/onlineshop/onlineshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/onlineshop/onlineshop/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineshop/onlineshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/onlineshop/onlineshop/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineshop/onlineshopmain/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/onlineshop/onlineshopmain/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineshop/onlineshopmain/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/onlineshop/onlineshopmain/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +38,12 @@
     &quot;accountId&quot;: &quot;141d7b46-6f15-403e-a3cb-111ce2946cfd&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.venv/lib/python3.13/site-packages/django/core/handlers/base.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/.venv/lib/python3.13/site-packages/django/shortcuts.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/.venv/lib/python3.13/site-packages/rest_framework/relations.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/onlineshop/onlineshopmain/migrations/0001_initial.py" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -54,6 +58,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.main.executor": "Run",
     "Python.onlineshop.executor": "Debug",
@@ -62,10 +67,10 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/home/anton/PycharmProjects/online_shop",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "Docker"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
     <configuration name="onlineshop" type="PythonConfigurationType" factoryName="Python">
       <module name="online_shop" />
       <option name="ENV_FILES" value="" />
@@ -89,6 +94,23 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml" />
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -113,12 +135,21 @@
       <option name="project" value="LOCAL" />
       <updated>1755191646794</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="добавление hhtp ручек">
+      <option name="closed" value="true" />
+      <created>1755339734786</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1755339734786</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="добавление hhtp ручек" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавление hhtp ручек" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

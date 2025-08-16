@@ -1,14 +1,22 @@
 version: "3.9"
 services:
-  db:
+  shop-db:
     image: postgres:16
-    container_name: my_postgres
+    container_name: shop-db-postgres
     restart: always
     ports:
       - "5333:5432"
     environment:
-      POSTGRES_DB: mydb        # имя базы
-      POSTGRES_USER: mydb          # имя пользователя
-      POSTGRES_PASSWORD: mydb  # пароль
+      POSTGRES_DB: mydb
+      POSTGRES_USER: mydb
+      POSTGRES_PASSWORD: mydb
     volumes:
       - ./postgres_data:/var/lib/postgresql/data
+
+  shop-api:
+    build: ./onlineshop
+    container_name: shop-api
+    ports:
+      - "8000:8000"
+    depends_on:
+        - shop-db
