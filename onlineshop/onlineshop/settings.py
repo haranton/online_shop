@@ -87,8 +87,8 @@ DATABASES = {
         'NAME': 'mydb',
         'USER': 'mydb',
         'PASSWORD': 'mydb',
-        'HOST': 'localhost', #'shop-db',
-        'PORT': '5333',    #'5432',
+        'HOST': 'shop-db',
+        'PORT': '5432',
     }
 }
 

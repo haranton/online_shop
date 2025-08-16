@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d7d8de3d-130f-47af-a6ea-2be57d9f1dd1" name="Changes" comment="добавлены докер компос для запуска приложения">
+    <list default="true" id="d7d8de3d-130f-47af-a6ea-2be57d9f1dd1" name="Changes" comment="добавлена сваггер документация">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/onlineshop/onlineshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/onlineshop/onlineshop/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineshop/onlineshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/onlineshop/onlineshop/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,14 +151,23 @@
       <option name="project" value="LOCAL" />
       <updated>1755346068403</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="добавлена сваггер документация">
+      <option name="closed" value="true" />
+      <created>1755365984329</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1755365984330</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="добавление hhtp ручек" />
     <MESSAGE value="добавлены докер компос для запуска приложения" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавлены докер компос для запуска приложения" />
+    <MESSAGE value="добавлена сваггер документация" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлена сваггер документация" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
