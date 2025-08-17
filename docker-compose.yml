@@ -24,6 +24,12 @@ services:
     command: >
       sh -c "python wait_for_services.py &&
              python manage.py runserver 0.0.0.0:8000"
+    environment:
+      DB_NAME: mydb
+      DB_USER: mydb
+      DB_PASSWORD: mydb
+      DB_HOST: shop-db
+      DB_PORT: 5432
   minio:
     image: minio/minio
     container_name: minio
